@@ -6,7 +6,7 @@ TextingApp::Application.routes.draw do
   get '/contact'  =>  'static_pages#contact'
   get '/send_text'=>  'static_pages#send_text'
 
-  post '/send' =>  'static_pages#send_text'
+  post '/send'    =>  'static_pages#send_text'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
